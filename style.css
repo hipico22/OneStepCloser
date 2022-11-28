@@ -1,7 +1,11 @@
+  body{
+    margin: 0;
+
+  }
   .topnav{
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 0;
     background-color: rgb(48, 53, 53);
     padding: 20px;
     width: 100%;
@@ -50,4 +54,128 @@
   }
   .log a{
     padding-left: 20px;
+  }
+  .fwh-slide{
+    height: 100vh;
+    background: red;
+    box-sizing: border-box;
+    padding: 80px;
+  }
+  .fwh-slide--bg-blue{
+    background: blue;
+    color:white;
+  }
+  .fwh-slide p{
+    margin: 0;
+  }
+  
+  .slide1{
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:rgb(143, 101, 101);
+    height: 60%;
+  }
+  .slide1--registar{
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:rgb(143, 101, 101);
+    height: 100%;
+  }
+  .slide1--login{
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:rgb(143, 101, 101);
+    height: 80%;
+  }
+  .voltar{
+    margin-left: 250px;
+    padding: 25px;
+  }
+  .voltar--login{
+    margin-left: 235px;
+    padding: 25px;
+  }
+  .button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+  background-color: #D0B084; /* Beje */
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  }
+  .button1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button3{
+    font-size: 20px;
+    margin: 0px;
+  }
+  .button-area{
+    margin-top: 7%;
+    margin-left: 240px;
+    margin-right: 370px;
+    width: 100%;
+  }
+  .button-area3{
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 100%;
+  }
+  .button-area--login{
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  nav{
+    margin-left: 265px;
+    padding: 25px;
+    padding-top: 30px;
+  }
+  nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  form{
+    margin-left: 150px;
+  }
+  .slide1--titulo-registar{
+    padding-top: 1px;
   }
